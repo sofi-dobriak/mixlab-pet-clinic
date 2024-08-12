@@ -76,7 +76,7 @@ address {
 .nav-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 42px;
     padding-bottom: 34px;
 }
@@ -85,7 +85,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 150px;
+    margin-right: 186px;
 
 }
 
