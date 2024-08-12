@@ -27,11 +27,11 @@
             <!-- Header -->
             <nav class="nav-container">
                 <ul class="nav-list">
-                    <li><a class="nav-item" href="#">Veterinarians</a></li>
-                    <li><a class="nav-item" href="#">How it works</a></li>
-                    <li><a class="nav-item" href="#">About us</a></li>
-                    <li><a class="nav-item" href="#">Blog</a></li>
-                    <li><a class="nav-item" href="#">Shop</a></li>
+                    <li><a class="nav-item" href="#veterinarians">Veterinarians</a></li>
+                    <li><a class="nav-item" href="#how-it-works">How it works</a></li>
+                    <li><a class="nav-item" href="#about">About us</a></li>
+                    <li><a class="nav-item" href="#blog">Blog</a></li>
+                    <li><a class="nav-item" href="#feedback">Feedback</a></li>
                 </ul>
                 <a class="nav-logo" href="#">
                     <img src="./img/logo.svg" alt="A logo of Mixlab clinic">
@@ -64,7 +64,7 @@
             </section>
 
             <!-- About -->
-            <section class="about-container">
+            <section class="about-container" id="about">
                 <div class="about-title-img-container">
                     <h2 class="about-title">We couldn’t find a pharmacy experience worthy of our best buds— so we
                         created one.</h2>
@@ -102,7 +102,7 @@
             </section>
 
             <!-- How it works -->
-            <section class="how-it-works-container">
+            <section class="how-it-works-container" id="how-it-works">
                 <h2 class="how-it-works-title">How it works</h2>
                 <ul class="how-it-works-list">
                     <li class="how-it-works-item">
@@ -130,7 +130,7 @@
             </section>
 
             <!-- For Veterinarians -->
-            <section class="veterinarians-section">
+            <section class="veterinarians-section" id="veterinarians">
                 <img src="./img/veterinarian-screen.png" alt="Dog sniffs the veterinarian's nose" width="562">
                 <div class="veterinarian-text">
                     <p class="veterinarians-pre-text">For Veterinarians</p>
@@ -147,7 +147,7 @@
             </section>
 
             <!-- Feedback -->
-            <section class="feedback-section">
+            <section class="feedback-section" id="feedback">
                 <h2 class="feedback-title">Pets love Mixlab!</h2>
                 <p class="feedback-text">See why we're 5 stars on
                     <a class="accent-violent" href="https://www.yelp.com/" target="_blank">Yelp</a>,
@@ -175,7 +175,7 @@
             </section>
 
             <!-- News -->
-            <section class="news-section ">
+            <section class="news-section" id="blog">
                 <h2 class="news-title">In the Wild</h2>
                 <p class="news-pre-text">
                     In The Wild is a collection of pieces to help close the communication gap, while growing the love
@@ -282,43 +282,46 @@
                 </section>
 
                 <!-- Contacts -->
-                <!-- <address class="address-container"> -->
-                <ul class="contacts-list">
-                    <li class="contacts-item">
-                        <p class="quick-links-title">Call or Text</p>
-                        <a class="quick-links-link" href="tel:8889014480">(888) 901-4480</a>
-                    </li>
-                    <li class="contacts-item">
-                        <p class="quick-links-title">Email</p>
-                        <a class="quick-links-link" href="mailto:hello@mixlabrx.com">hello@mixlabrx.com</a>
-                    </li>
-                    <li class="contacts-item">
-                        <p class="quick-links-title">Fax</p>
-                        <a class="quick-links-link" href="fax:2129670892">(212) 967-0892</a>
-                    </li>
-                </ul>
+                <address class="address-container">
+                    <ul class="contacts-list">
+                        <li class="contacts-item">
+                            <p class="quick-links-title">Call or Text</p>
+                            <a class="quick-links-link" href="tel:8889014480">(888) 901-4480</a>
+                        </li>
+                        <li class="contacts-item">
+                            <p class="quick-links-title">Email</p>
+                            <a class="quick-links-link" href="mailto:hello@mixlabrx.com">hello@mixlabrx.com</a>
+                        </li>
+                        <li class="contacts-item">
+                            <p class="quick-links-title">Fax</p>
+                            <a class="quick-links-link" href="fax:2129670892">(212) 967-0892</a>
+                        </li>
+                    </ul>
+                </address>
 
                 <!-- Address -->
-                <ul class="address-list">
-                    <li class="address-item">
-                        <p class="quick-links-title">New York City</p>
-                        <a class="quick-links-link" href="https://maps.app.goo.gl/FeMA8RSqdK5tGiW89" target="_blank">336
-                            West 37th St Suite
-                            850
-                            New York, NY 10018</a>
-                        <p class="quick-links-text">Mon-Sat 10am - 8pm ET</p>
-                        <p class="quick-links-text">Sun 10am - 2pm ET</p>
-                    </li>
-                    <li class="address-item">
-                        <p class="quick-links-title">Los Angeles</p>
-                        <a class="quick-links-link" href="https://maps.app.goo.gl/Na3t8jgh4PpukZk46"
-                            target="_blank">2223 Federal Ave Los
-                            Angeles, CA 90064</a>
-                        <p class="quick-links-text">Mon-Sat 9am - 7pm PT</p>
-                        <p class="quick-links-text">Sun 9am - 1pm PT</p>
-                    </li>
-                </ul>
-                <!-- </address> -->
+                <address class="address-container">
+                    <ul class="address-list">
+                        <li class="address-item">
+                            <p class="quick-links-title">New York City</p>
+                            <a class="quick-links-link" href="https://maps.app.goo.gl/FeMA8RSqdK5tGiW89"
+                                target="_blank">336
+                                West 37th St Suite
+                                850
+                                New York, NY 10018</a>
+                            <p class="quick-links-text">Mon-Sat 10am - 8pm ET</p>
+                            <p class="quick-links-text">Sun 10am - 2pm ET</p>
+                        </li>
+                        <li class="address-item">
+                            <p class="quick-links-title">Los Angeles</p>
+                            <a class="quick-links-link" href="https://maps.app.goo.gl/Na3t8jgh4PpukZk46"
+                                target="_blank">2223 Federal Ave Los
+                                Angeles, CA 90064</a>
+                            <p class="quick-links-text">Mon-Sat 9am - 7pm PT</p>
+                            <p class="quick-links-text">Sun 9am - 1pm PT</p>
+                        </li>
+                    </ul>
+                </address>
 
                 <!-- Social Media Icons -->
                 <section>
